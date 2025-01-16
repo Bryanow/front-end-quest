@@ -7,23 +7,40 @@
     <style>
         body{
             text-align: center;
-            margin-top: 150px;
+            margin-top: 20rem;
         }
-        .srch{
-            width: 500px;
-            height: 40px;
-            font-size: 20px;
+        h1{
+            font-size: 15rem;
+            margin-bottom: 1rem;
+
         }
-        #btns{
-            margin-top: 20px;
+        input[type="text"]{
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-bottom: 1rem;
         }
-        .btn input:hover{
-            border: 1px solid grey;            
+
+        input[type="button"]{
+            background-color: #cdcdcd;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+            width: 20rem;
+            height: 4rem;
+            font-size: 2rem;
+            border: #cdcdcd;
+            border-radius: 5px;
+        }
+        input[type="button"]:hover{
+            background-color: #6b6a6a;
+            cursor: pointer;
+            transform: scale(1.05);
+            transition: all 0.2s ease;
         }
     </style>
 </head>
 <body>
-    <h1 style="font-size: 80px; color: cornflowerblue;">
+    <h1>
         <span style="color: cornflowerblue">G</span>
         <span style="color: red">o</span>
         <span style="color: yellow">o</span>
@@ -31,12 +48,12 @@
         <span style="color: green">l</span>
         <span style="color: red">e</span>
     </h1>
-    <input type="text" name="searchbar" id="srch" 
+    <input type="text" name="searchbar" id="searchbar" 
     placeholder="Pesquise no Google ou digite uma URL"
-    style="width: 500px; height: 40px; font-size: 20px;">
-    <div id="btns">
-        <input type="button" value="Pesquisa Google" style="font-size: 20px;">
-        <input type="button" value="Estou com sorte" style="font-size: 20px;">
+    style="width: 1200px; height: 50px; font-size: 20px; ">
+    <div id="butons">
+        <input type="button" value="Pesquisa Google">
+        <input type="button" value="Estou com sorte">
     </div>
     
 </body>
