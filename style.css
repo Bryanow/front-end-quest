@@ -30,14 +30,28 @@ header {
     margin-right: 1.7rem;
     font-size: 1.5rem;
 }
+.gmail:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 .imagens {
     margin-right: 2rem;
     font-size: 1.5rem;
 }
+.imagens:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .app-dots span {
+    padding: 0.5rem;
     font-size: 2rem;
     margin-right: 2rem;
+}
+.app-dots span:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 50%;
 }
 
 .fazerlogin {
