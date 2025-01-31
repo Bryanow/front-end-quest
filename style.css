@@ -31,7 +31,7 @@ h1::hover {
 }
 .gmail {
     margin-right: 25px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .gmail:hover {
     cursor: pointer;
@@ -39,7 +39,7 @@ h1::hover {
 }
 .imagens {
     margin-right: 25px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .imagens:hover {
     cursor: pointer;
